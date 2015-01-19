@@ -327,7 +327,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
@@ -799,7 +799,13 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
-
+.intro-icons li{
+    margin:5px;
+}
+.intro-address{
+    text-align: left;
+    color:black;
+}
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
