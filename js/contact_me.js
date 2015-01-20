@@ -18,14 +18,15 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://docs.google.com/forms/d/1KgvyRQi1ZhVrqzmaFgmb6_0GfGBTEdpZCmm1yKnk9cM/formResponse",
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                   'entry.536653203': name,
+                    'entry.1222787084': email,
+                    'entry.1338894966:': phone,
+                    'entry.1481696815': message
                 },
+                 dataType: "xml",
                 cache: false,
                 success: function() {
                     // Success message
@@ -33,7 +34,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Messajiniz gonderildi. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
