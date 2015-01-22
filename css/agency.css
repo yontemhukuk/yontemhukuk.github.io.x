@@ -12,7 +12,10 @@ body {
 .text-muted {
     color: #777;
 }
-
+.modal-body ul{
+    font-size: 21px;
+padding: 32px;
+}
 .text-primary {
     color: #1ca8c3;
 }
