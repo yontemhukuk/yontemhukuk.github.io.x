@@ -22,6 +22,7 @@ padding: 32px;
 .profile-pic{
     width:120px;
     height:160px;
+    background-image: url("../img/about/baran.jpg");
 }
 p {
     font-size: 14px;
