@@ -19,7 +19,10 @@ padding: 32px;
 .text-primary {
     color: #1ca8c3;
 }
-
+.profile-pic{
+    width:120px;
+    height:160px;
+}
 p {
     font-size: 14px;
     line-height: 1.75;
