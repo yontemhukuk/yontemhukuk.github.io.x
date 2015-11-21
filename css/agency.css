@@ -357,6 +357,9 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+	.btn-geri{
+		display:none;
+	}
     header .intro-text {
         padding-top: 200px;
         padding-bottom: 300px;
@@ -840,7 +843,6 @@ ul.social-buttons li a:active {
     color:black;
 }
 .portfolio-modal .modal-content {
-    padding: 100px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -932,6 +934,7 @@ img::-moz-selection {
 
    text-align:left;
 }
+
 body {
     webkit-tap-highlight-color: #1ca8c3;
 }
