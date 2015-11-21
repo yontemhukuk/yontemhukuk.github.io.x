@@ -234,6 +234,23 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color:#ba3a1c;
 }
+.giris-sosyal-medya{
+	padding:40px;
+}
+.giris-yazisi{
+	padding:0 15% 50px 15%;
+	text-align:justify;;
+}
+.giris-adres a{
+	color:black;
+}
+.giris-adres{
+	padding:0 15% 0 15%;
+}
+.giris-container{
+	border: 2px solid white;
+	padding: 30px;
+}
 
 @media(min-width:768px) {
     .navbar-default {
@@ -269,8 +286,6 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
     color: #1ca8c3;
     background-attachment: scroll;
-    /*background-color: transparent;*/
-    background-image: url(../img/law_burned.png);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -285,20 +300,17 @@ fieldset[disabled] .btn-xl.active {
     float:left;
     color: #1ca8c3;
     background-attachment: scroll;
-    /*background-color: transparent;*/
-    background-image: url(../img/baro-logo_burned.png);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
-    -o-background-size: contain; 
+    -o-background-size: contain;
 }
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url(../img/law.png);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -310,6 +322,9 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+	font-family:Times;
+	font-size:20px;
+	color:black;
 }
 
 header .intro-text .intro-lead-in {
@@ -328,8 +343,17 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
+
 #services a{
     margin:10px;
+}
+@media(max-width:767px){
+	.giris-adres{
+		padding:5%;
+	}
+	.giris-yazisi{
+		padding:5%;
+	}
 }
 
 @media(min-width:768px) {
@@ -809,6 +833,7 @@ ul.social-buttons li a:active {
 }
 .intro-icons li{
     margin:5px;
+	display: inline-block;
 }
 .intro-address{
     text-align: left;
@@ -904,7 +929,7 @@ img::-moz-selection {
 }
 .modal-list{
    list-style:none;
-   
+
    text-align:left;
 }
 body {
