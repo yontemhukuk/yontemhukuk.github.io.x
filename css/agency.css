@@ -349,10 +349,14 @@ header .intro-text .intro-heading {
 }
 @media(max-width:767px){
 	.giris-adres{
-		padding:5%;
+		padding:5% 1% 5% 1%;
 	}
 	.giris-yazisi{
-		padding:5%;
+		padding:5% 1% 5% 1%;
+		text-align: start;
+	}
+	.giris-sosyal-medya{
+		padding:5% 1% 5% 1%;
 	}
 }
 
