@@ -12,9 +12,14 @@ body {
 .text-muted {
     color: #777;
 }
+.modal-body{
+	padding-top: 50px;
+}
+
 .modal-body ul{
     font-size: 21px;
-padding: 32px;
+	padding: 32px;
+
 }
 .text-primary {
     color: #1ca8c3;
@@ -884,7 +889,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
-    right: 25px;
+    right: 0px;
     width: 75px;
     height: 75px;
     background-color: transparent;
